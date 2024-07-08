@@ -1,0 +1,4 @@
+ name: Ensure that postgresql is started
+    ansible.builtin.service:
+      name: postgresql
+      state: started
